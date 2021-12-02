@@ -75,9 +75,13 @@
     <section class="color-section" id="greeting">
       <div class="container-fluid">
         <h2 class="second-heading" id="animate">Hi, I’m Thant Zin Lin. Nice to meet you.!</h2>
-        <p>I'm a web designer / developer. I have a passion for web design and love to create for web and mobile devices. 
+        <p>I'm a web designer / developer. I have a passion for web design and love to create for web and mobile devices.<span id="dots">...</span><span id="more"> 
           I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, features, animations, and coding interactive layouts.
+          </span><span>
+            <a href="javascript:myFunction()" id="myLink">Read more</a>
+          </span>
         </p>
+        <!-- <button onclick="myFunction()" id="myBtn">Read more</button> -->
       </div>
     </section>
   
@@ -168,28 +172,95 @@
           <h2 class="second-heading" id="animate-white">Project</h2>
           <h3 class="third-heading">A Selection Of Stuff I've Built</h3>
         </div>
+        <div class="col-md-12">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></li>
+            </ol>
+            <div class="carousel-inner">
 
-        <div class="col-lg-4 col-sm-6 project">
-          <img src="images/drum.png" alt="Drum Kit Player" class="image">
-          <div class="middle">
-            <button class="btn btn-primary mb-2 projectBtn" id="drum">View It Here</button>
-            <button class="btn btn-secondary projectBtn" id="drum">View Github Repo</button>
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 project d-md-none d-lg-block">
+                    <img src="images/drum.png" alt="Drum Kit Player" class="image">
+                    <div class="middle">
+                      <button class="btn btn-primary mb-2 projectBtn" id="drum">View It Here</button>
+                      <button class="btn btn-secondary projectBtn" id="drum">View Github Repo</button>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 project d-none d-md-block">
+                    <img src="images/simon.png" alt="Simon Game" class="image">
+                    <div class="middle">
+                      <button class="btn btn-primary mb-2 projectBtn" id="simon">View It Here</button>
+                      <button class="btn btn-secondary projectBtn" id="simon">View Github Repo</button>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 project d-none d-md-block">
+                    <img src="images/dicegame.png" alt="Dice Game" class="image">
+                    <div class="middle">
+                      <button class="btn btn-primary mb-2 projectBtn" id="dice">View It Here</button>
+                      <button class="btn btn-secondary projectBtn" id="dice">View Github Repo</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item ">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 project d-md-none d-lg-block">
+                    <img src="images/simon.png" alt="Simon Game" class="image">
+                    <div class="middle">
+                      <button class="btn btn-primary mb-2 projectBtn" id="simon">View It Here</button>
+                      <button class="btn btn-secondary projectBtn" id="simon">View Github Repo</button>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 project d-none d-md-block">
+                    <img src="images/drum.png" alt="Drum Kit Player" class="image">
+                    <div class="middle">
+                      <button class="btn btn-primary mb-2 projectBtn" id="drum">View It Here</button>
+                      <button class="btn btn-secondary projectBtn" id="drum">View Github Repo</button>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 project d-none d-md-block">
+                    <img src="images/dicegame.png" alt="Dice Game" class="image">
+                    <div class="middle">
+                      <button class="btn btn-primary mb-2 projectBtn" id="dice">View It Here</button>
+                      <button class="btn btn-secondary projectBtn" id="dice">View Github Repo</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 project d-md-none d-lg-block">
+                    <img src="images/dicegame.png" alt="Dice Game" class="image">
+                    <div class="middle">
+                      <button class="btn btn-primary mb-2 projectBtn" id="dice">View It Here</button>
+                      <button class="btn btn-secondary projectBtn" id="dice">View Github Repo</button>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 project d-none d-md-block">
+                    <img src="images/drum.png" alt="Drum Kit Player" class="image">
+                    <div class="middle">
+                      <button class="btn btn-primary mb-2 projectBtn" id="drum">View It Here</button>
+                      <button class="btn btn-secondary projectBtn" id="drum">View Github Repo</button>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 project d-none d-md-block">
+                    <img src="images/simon.png" alt="Simon Game" class="image">
+                    <div class="middle">
+                      <button class="btn btn-primary mb-2 projectBtn" id="simon">View It Here</button>
+                      <button class="btn btn-secondary projectBtn" id="simon">View Github Repo</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 project">
-          <img src="images/simon.png" alt="Simon Game" class="image">
-          <div class="middle">
-            <button class="btn btn-primary mb-2 projectBtn" id="simon">View It Here</button>
-            <button class="btn btn-secondary projectBtn" id="simon">View Github Repo</button>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 project">
-          <img src="images/dicegame.png" alt="Dice Game" class="image">
-          <div class="middle">
-            <button class="btn btn-primary mb-2 projectBtn" id="dice">View It Here</button>
-            <button class="btn btn-secondary projectBtn" id="dice">View Github Repo</button>
-          </div>
-        </div>
+        
       </div>
     </section>
 

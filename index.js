@@ -57,3 +57,19 @@ for (let i = 0; i < btns.length; i++) {
   });
   
 }
+
+function myFunction() {
+  let dots = document.querySelector("#dots");
+  let moreText = document.querySelector("#more");
+  let btnText = document.querySelector("#myLink");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.textContent = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.textContent = "Read less";
+    moreText.style.display = "inline";
+  }
+}

@@ -212,12 +212,14 @@ p {
      bottom: -70px;
  }
 
+/* Read More Link */
 #myLink {
     display: none;
 }
 #dots {
     display: none;
 }
+
 @media only screen and (max-width: 600px) {
     #more {display: none;}
     #myLink {

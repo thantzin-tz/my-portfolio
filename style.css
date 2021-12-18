@@ -101,6 +101,28 @@ p {
     /* font-weight: bold; */
 }
 
+/* Custom Download button */
+#downloadCV.btn-outline {
+    color: #7510F7;
+    background-color: #ffffff;
+    border-color: #7510F7;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    font-size: 1.0rem;
+    font-family: 'Merriweather', serif;
+}
+
+  
+#downloadCV.btn-outline:hover,
+#downloadCV.btn-outline:active,
+#downloadCV.btn-outline:focus,
+#downloadCV.btn-outline.active {
+    background: #7510F7;
+    color: #ffffff;
+    border-color: #7510F7;
+    
+}
+
 .skill-row {
     width: 50%;
     margin: 100px auto 20px auto;

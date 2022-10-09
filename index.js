@@ -46,10 +46,24 @@ for (let i = 0; i < btns.length; i++) {
       }else{
         window.location = "https://github.com/thantzin-tz/dicegame";
       }
-    }else {
+    }else if(this.id === "gym"){
       let btnText = this.textContent;
       if(btnText === "View It Here"){
-        window.location = "https://thantzin-tz.github.io/simon-game/"; 
+        window.location = "https://github.com/thantzin-tz/Gym-Management-System"; 
+      }else{
+        window.location = "https://github.com/thantzin-tz/Gym-Management-System";
+      }
+    }else if(this.id === "click2eat"){
+      let btnText = this.textContent;
+      if(btnText === "View It Here"){
+        window.location = "http://click2eat.somee.com/user/Default.aspx"; 
+      }else{
+        window.location = "https://github.com/thantzin-tz/Online-Food-Order-System";
+      }
+    } else {
+      let btnText = this.textContent;
+      if(btnText === "View It Here"){
+        window.location = "http://click2eat.somee.com/user/Default.aspx"; 
       }else{
         window.location = "https://github.com/thantzin-tz/simon-game";
       }

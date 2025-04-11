@@ -63,7 +63,7 @@ for (let i = 0; i < btns.length; i++) {
     } else {
       let btnText = this.textContent;
       if(btnText === "View It Here"){
-        window.location = "http://click2eat.somee.com/user/Default.aspx"; 
+        window.location = "https://thantzin-tz.github.io/simon-game/"; 
       }else{
         window.location = "https://github.com/thantzin-tz/simon-game";
       }
